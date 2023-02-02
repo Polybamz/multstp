@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="y.css">
+  <title>Document</title>
+
+</head>
+<body>
+  
+  <section class="container">
+    <div class="right">
+      <div class="col1">
+        <div class="box">
+          <div class="check"><h2>1</h2></div>
+          <div class="inBox">
+            <h3>STEP 2<br>
+            <span>Your Info</span></h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="check"><h2>2</h2></div>
+          <div class="inBox">
+            <h3>STEP 2<br>
+            <span>Select plan</span></h1>
+          </div>
+        </div>
+        <div class="box">
+          <div class="check"><h2>3</h2></div>
+          <div class="inBox">
+            <h3>STEP 3<br>
+            <span>Add ons</span></h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="check"><h2>4</h2></div>
+          <div class="inBox">
+            <h3>STEP 4<br>
+            <span>Summary</span></h3>
+          </div>
+        </div>
+    </div>
+  </div>
+  
+<!-- col2 -->
+  <div class="left">
+    <div class="col2">
+      <h1>Personal infor</h1>
+      <p>please provide your name,Email address,and phone number</p>
+      <form action="">
+        <diV class="ip">
+        <label for="name" >Name</label>
+        <input type="text" name="name" class="inputField" required>
+        </diV>
+        <div class="ip">
+        <label for="email" >Email address</label>
+        <input type="mail" name="mail" class="inputField" required>
+        </div>
+        <div class="ip">
+        <label for="name" >Phone number</label>
+        <input type="tell" name="number" class="inputField" required>
+        </div>
+        <button class="btn" onclick = tostep2()>Next Step</button>
+      </form>
+    </div>
+    
+    <!-- col3 -->
+    <div class="col3">
+      <h1>Select your plan</h1>
+      <p>You Have option of monthly or yearly billing</p>
+      <div class="box">
+        <div class="box1">
+          <img src="./assets/images/icon-arcade.svg" >
+          <h3>Arcade<br><span>$9/mo</span></h3>
+
+        </div>
+        <div class="box1">
+          <img src="./assets/images/icon-advanced.svg" >
+          <h3>Advance<br><span>$12/mo</span></h3>
+
+        </div>
+        <div class="box1">
+          <img src="./assets/images/icon-pro.svg" >
+          <h3>Pro<br><span>$15/mo</span></h3>
+        
+        </div>
+       
+      </div>
+      <div class="bttn">
+        <div>
+        <label for="ckeckbox" >monthly</label>
+        <input type="radio" name="rad" id="month">
+        </div>
+        <div>
+          <label for="ckeckbox">yearly</label>
+          <input type="radio" name="rad" id="year">
+          </div>
+      </div> 
+      <div class="button">
+        <a href="#" onclick= toStep1()>Go Back</a>
+        <a href="#" onclick=toStep3()>Next step</a>
+      </div>
+
+    </div>
+   
+    
+  
+  <!-- col4 -->
+
+  <div class="col4">
+    <h1>Pick add-ons</h1>
+    <p>Adds-ons help enhance your gaming experienc</p>
+    <div class="box">
+      <div class="box1">
+        <input type="checkbox">
+        <h2>Online service<br><span>Access to multiplayer games</span></h2>
+        <h3>+$1/yr</h3>
+      </div>
+      <div class="box1">
+        <input type="checkbox">
+        <h2>Lager storage<br><span>Extra 1TB cloud save</span></h2>
+        <h3>+$2/yr</h3>
+      </div>
+      <div class="box1">
+        <input type="checkbox">
+        <h2>Customizable Profile<br><span>Custom theme on your profile</span></h2>
+        <h3>+$2/yr</h3>
+      </div>
+    </div>
+    <div class="coll">
+      <a href="#"onclick=btostep2()>Go Back</a>
+      <a href="#" onclick= toStep5()>Next step</a>
+    </div>
+
+   </div>
+   
+    <!-- col4 -->
+
+  <div class="col4b">
+    <h1>Pick add-ons</h1>
+    <p>Adds-ons help enhance your gaming experienc</p>
+    <div class="box">
+      <div class="box1">
+        <input type="checkbox">
+        <h2>Online service<br><span>Access to multiplayer games</span></h2>
+        <h3>+$1/mo</h3>
+      </div>
+      <div class="box1">
+        <input type="checkbox">
+        <h2>Lager storage<br><span>Extra 1TB cloud save</span></h2>
+        <h3>+$2/mo</h3>
+      </div>
+      <div class="box1">
+        <input type="checkbox">
+        <h2>Customizable Profile<br><span>Custom theme on your profile</span></h2>
+        <h3>+$2/mo</h3>
+      </div>
+    </div>
+    <div class="coll">
+      <a href="#"onclick=btostep2()>Go Back</a>
+      <a href="#"onclick = toStepB() >Next step</a>
+    </div>
+
+   </div>
+   <!-- col5 -->
+     <div class="col5">
+      <h1>Fishing up</h1>
+      <p>Double-check everything looks OK before confirming</p>
+      <div class="box">
+        <div class="box1">
+       <h1>Arcade(Monthly)<br><span><a href="step1.html">Change</a></span></h1>
+       <p>$9/mo</p>
+        </div>
+        <div class="box1">
+          <h1>Online service</h1>
+          <p>+$1/mo</p>
+           </div>
+           <div class="box1">
+            <h1>Larger storage</h1>
+            <p>+$2/mo</p>
+             </div>
+      </div>
+      <div class="boxx">
+      <h1>Total(per month)</h1>
+            <p>+$12/mo</p>
+             </div>
+
+    <div class="coll">
+      <a href="#" onclick=btoStep4()>Go Back</a>
+      <a href="#">Confirm</a>
+    </div>
+
+   </div>
+   <!-- col5b -->
+   <div class="col5b">
+    <h1>Fishing up</h1>
+    <p>Double-check everything looks OK before confirming</p>
+    <div class="box">
+      <div class="box1">
+     <h1>Arcade(year)<br><span><a href="step1.html">Change</a></span></h1>
+     <p>$9/yr</p>
+      </div>
+      <div class="box1">
+        <h1>Online service</h1>
+        <p>+$1/yr</p>
+         </div>
+         <div class="box1">
+          <h1>Larger storage</h1>
+          <p>+$2/yr</p>
+           </div>
+    </div>
+    <div class="boxx">
+    <h1>Total(per month)</h1>
+          <p>+$12/yr</p>
+           </div>
+
+  <div class="coll">
+    <a href="" onclick= backto4b()>Go Back</a>
+    <a href="#">Confirm</a>
+  </div>
+
+ </div>
+   </div>
+
+  </section>
+  
+
+  <script src="y.js"></script>
+</body>
+</html>
